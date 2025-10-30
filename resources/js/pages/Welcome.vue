@@ -1,9 +1,9 @@
 <script setup lang="ts">
 import { dashboard, login, register } from '@/routes'
 import { Head, Link } from '@inertiajs/vue3'
-import ThemeToggle from '@/Components/ThemeToggle.vue'
-import ExplainerFlow from '@/Components/ExplainerFlow.vue'
-import TryDropzone from '@/Components/TryDropzone.vue'
+import ThemeToggle from '@/components/ThemeToggle.vue'
+import ExplainerFlow from '@/components/ExplainerFlow.vue'
+import TryDropzone from '@/components/TryDropzone.vue'
 
 // shadcn-vue (se till att du har genererat dessa med CLI)
 import { Button } from '@/components/ui/button'
